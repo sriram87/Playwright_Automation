@@ -1,0 +1,21 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test tests/demo.spec.js --project chromium --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://sriramramanujam880@dev.azure.com/sriramramanujam880/QA/_git/PlaywrightAutomation"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.1"
+  }
+}
